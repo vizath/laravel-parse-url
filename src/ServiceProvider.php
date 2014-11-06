@@ -11,7 +11,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider {
     {
         // Register 'urlparser' instance container to our UrlParser object
         $this->app['urlparser'] = $this->app->share(function($app) {
-            return new Vizath\ParseUrl\UrlParser;
+            return new \Vizath\ParseUrl\UrlParser;
         });
 
         // Shortcut so developers don't need to add an Alias in app/config/app.php
