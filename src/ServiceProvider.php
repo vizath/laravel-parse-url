@@ -1,6 +1,6 @@
 <?php namespace Vizath\ParseUrl;
 
-class ParseUrlServiceProvider extends Illuminate\Support\ServiceProvider {
+class ServiceProvider extends \Illuminate\Support\ServiceProvider {
 
     /**
      * Register the service provider.
