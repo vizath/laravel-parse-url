@@ -1,0 +1,19 @@
+{
+    "name": "vizath/laravel-parse-url",
+    "description": "Based on twitter-text-php",
+    "require": {
+        "php": ">=5.4.0",
+        "nojimage/twitter-text-php": "dev-develop"
+    },
+    "authors": [
+        {
+            "name": "Maxime Fafard",
+            "email": "maxfafard@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Vizath\\ParseUrl\\": "src/"
+        }
+    }
+}
