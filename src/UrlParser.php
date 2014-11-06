@@ -1,7 +1,7 @@
 <?php namespace Vizath\ParseUrl;
 
-user Twitter\Text\Extractor;
-user Twitter\Text\LooseAutolink;
+use Twitter\Text\Extractor;
+use Twitter\Text\LooseAutolink;
 
 class UrlParser {
 
